@@ -4,21 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="32819aaa-3f91-4a6f-9501-39c75fa6b7aa" name="Changes" comment="test: added selenium and cucumber">
-      <change afterPath="$PROJECT_DIR$/src/main/extentConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PageObject/ProductPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PageObject/SearchPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/reports/ConfigFileReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/reports/extentManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/reports/extentTestManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/configuration.properties" afterDir="false" />
+    <list default="true" id="32819aaa-3f91-4a6f-9501-39c75fa6b7aa" name="Changes" comment="test: create step defs for search func">
+      <change afterPath="$PROJECT_DIR$/src/main/java/listeners/ReportListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/log/log.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testSuite.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/SetUpDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/SetUpDriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/features/search.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/search.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefs/searchStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefs/searchStepDefs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestRunner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,13 +49,19 @@
     "JUnit.TestRunner.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TestNG./Users/pwggm/IdeaProjects/smartOSC/src/test/java/testSuite.xml.executor": "Run",
     "git-widget-placeholder": "stepDefs",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/pwggm/IdeaProjects/smartOSC",
     "onboarding.tips.debug.path": "/Users/pwggm/IdeaProjects/smartOSC/src/main/java/org/example/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.TestRunner">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG./Users/pwggm/IdeaProjects/smartOSC/src/test/java/testSuite.xml">
     <configuration name="Feature: search" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/search.feature" />
@@ -121,18 +119,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="/Users/pwggm/IdeaProjects/smartOSC/src/test/java/testSuite.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="smartOSC" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/testSuite.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Cucumber Java.Unnamed" />
       <item itemvalue="Cucumber Java.Feature: search" />
       <item itemvalue="Cucumber Java.Scenario: [Primary] Verify search function by entering full text" />
       <item itemvalue="JUnit.TestRunner" />
+      <item itemvalue="TestNG./Users/pwggm/IdeaProjects/smartOSC/src/test/java/testSuite.xml" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG./Users/pwggm/IdeaProjects/smartOSC/src/test/java/testSuite.xml" />
         <item itemvalue="JUnit.TestRunner" />
         <item itemvalue="Cucumber Java.Feature: search" />
         <item itemvalue="Cucumber Java.Scenario: [Primary] Verify search function by entering full text" />
-        <item itemvalue="Cucumber Java.Feature: search" />
         <item itemvalue="Cucumber Java.Feature: search" />
       </list>
     </recent_temporary>
@@ -209,7 +218,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716433491295</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="test: create step defs for search func">
+      <option name="closed" value="true" />
+      <created>1716451408642</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1716451408642</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -227,7 +244,8 @@
     <MESSAGE value="build project" />
     <MESSAGE value="test: feature file created" />
     <MESSAGE value="test: added selenium and cucumber" />
-    <option name="LAST_COMMIT_MESSAGE" value="test: added selenium and cucumber" />
+    <MESSAGE value="test: create step defs for search func" />
+    <option name="LAST_COMMIT_MESSAGE" value="test: create step defs for search func" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
