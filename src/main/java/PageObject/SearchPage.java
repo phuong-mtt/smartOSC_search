@@ -3,11 +3,12 @@ package PageObject;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
+import utils.DriverInitializer;
 
 public class SearchPage {
-    public WebDriver driver;
-    public SearchPage(WebDriver driver){
-        this.driver = driver;
+    private WebDriver driver;
+    public SearchPage(){
+        driver = DriverInitializer.getDriver();
     }
     private By searchBar = By.xpath("//input[contains(@type,'search')]");
     private By removeBtn = By.xpath("//button[@title='Clear']");

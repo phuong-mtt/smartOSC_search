@@ -2,12 +2,11 @@ package reports;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
-import com.aventstack.extentreports.MediaEntityBuilder;
 import com.aventstack.extentreports.Status;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
-import utils.SetUpDriver;
+import utils.DriverInitializer;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -34,23 +33,16 @@ public class extentTestManager {
         getTest().log(status, message);
     }
 
-    /** for  Selenium
-     *
-     *
-     */
-
-    public WebDriver getDriver() {
-        return SetUpDriver.getDriver();
-    }
-
     public static void addScreenShot(String message) {
+        WebDriver driver = DriverInitializer.getDriver();
+
         String base64Image = "data:image/png;base64,"
-                + ((TakesScreenshot) SetUpDriver.getDriver()).getScreenshotAs(OutputType.BASE64);
+                + ((TakesScreenshot) driver).getScreenshotAs(OutputType.BASE64);
     }
 
     public static void addScreenShot(Status status, String message) {
-
+        WebDriver driver = DriverInitializer.getDriver();
         String base64Image = "data:image/png;base64,"
-                + ((TakesScreenshot) SetUpDriver.getDriver()).getScreenshotAs(OutputType.BASE64);
+                + ((TakesScreenshot) driver).getScreenshotAs(OutputType.BASE64);
     }
 }
