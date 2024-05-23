@@ -1,4 +1,5 @@
 import org.junit.*;
+import org.testng.annotations.*;
 
 import static utils.SetUpDriver.*;
 

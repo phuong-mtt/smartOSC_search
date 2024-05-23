@@ -4,20 +4,46 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="32819aaa-3f91-4a6f-9501-39c75fa6b7aa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="32819aaa-3f91-4a6f-9501-39c75fa6b7aa" name="Changes" comment="test: added selenium and cucumber">
+      <change afterPath="$PROJECT_DIR$/src/main/extentConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PageObject/ProductPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PageObject/SearchPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reports/ConfigFileReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reports/extentManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reports/extentTestManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/SetUpDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/SetUpDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/features/search.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/search.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefs/searchStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefs/searchStepDefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestRunner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="MIXED" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2gpTevFG50LFuVUgN3XX9VctBIy" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -26,13 +52,91 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Cucumber Java.Feature: search.executor": "Run",
+    "Cucumber Java.Scenario: [Primary] Verify search function by entering full text.executor": "Run",
+    "JUnit.TestRunner.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "stepDefs",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/pwggm/IdeaProjects/smartOSC",
     "onboarding.tips.debug.path": "/Users/pwggm/IdeaProjects/smartOSC/src/main/java/org/example/Main.java"
   }
 }]]></component>
+  <component name="RunManager" selected="JUnit.TestRunner">
+    <configuration name="Feature: search" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/search.feature" />
+      <option name="GLUE" value="stepDefs" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="smartOSC" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <shortenClasspath name="NONE" />
+      <option name="SUGGESTED_NAME" value="Feature: search" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: [Primary] Verify search function by entering full text" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/search.feature" />
+      <option name="GLUE" value="stepDefs" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="smartOSC" />
+      <option name="NAME_FILTER" value="^\[Primary\] Verify search function by entering full text$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^\[Primary\] Verify search function by entering full text$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: [Primary] Verify search function by entering full text" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unnamed" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" nameIsGenerated="true">
+      <module name="smartOSC" />
+      <shortenClasspath name="NONE" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="smartOSC" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestRunner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Cucumber Java.Unnamed" />
+      <item itemvalue="Cucumber Java.Feature: search" />
+      <item itemvalue="Cucumber Java.Scenario: [Primary] Verify search function by entering full text" />
+      <item itemvalue="JUnit.TestRunner" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestRunner" />
+        <item itemvalue="Cucumber Java.Feature: search" />
+        <item itemvalue="Cucumber Java.Scenario: [Primary] Verify search function by entering full text" />
+        <item itemvalue="Cucumber Java.Feature: search" />
+        <item itemvalue="Cucumber Java.Feature: search" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -49,7 +153,81 @@
       <option name="presentableId" value="Default" />
       <updated>1716393618971</updated>
     </task>
+    <task id="LOCAL-00001" summary="build project">
+      <option name="closed" value="true" />
+      <created>1716393720452</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1716393720452</updated>
+    </task>
+    <task id="LOCAL-00002" summary="test: feature file created">
+      <option name="closed" value="true" />
+      <created>1716396106923</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1716396106923</updated>
+    </task>
+    <task id="LOCAL-00003" summary="test: added selenium and cucumber">
+      <option name="closed" value="true" />
+      <created>1716396790176</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1716396790176</updated>
+    </task>
+    <task id="LOCAL-00004" summary="test: added selenium and cucumber">
+      <option name="closed" value="true" />
+      <created>1716397555950</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1716397555950</updated>
+    </task>
+    <task id="LOCAL-00005" summary="test: added selenium and cucumber">
+      <option name="closed" value="true" />
+      <created>1716398077955</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1716398077956</updated>
+    </task>
+    <task id="LOCAL-00006" summary="test: added selenium and cucumber">
+      <option name="closed" value="true" />
+      <created>1716433471289</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1716433471289</updated>
+    </task>
+    <task id="LOCAL-00007" summary="test: added selenium and cucumber">
+      <option name="closed" value="true" />
+      <created>1716433491295</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1716433491295</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="build project" />
+    <MESSAGE value="test: feature file created" />
+    <MESSAGE value="test: added selenium and cucumber" />
+    <option name="LAST_COMMIT_MESSAGE" value="test: added selenium and cucumber" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

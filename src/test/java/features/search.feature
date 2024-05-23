@@ -1,3 +1,4 @@
+@search @automate
 Feature: Search products
 
   Background:
@@ -6,16 +7,16 @@ Feature: Search products
 
   Scenario: [Primary] Verify UI search bar
     When search bar is displayed on the top of Home page
-    Then I see search icon at the left side of search bar
     And I see text "Search for products and brands" as placeholder
 
   Scenario: [Primary] Verify url after clicking search bar
     When I click search bar
     Then I should navigate to search url
 
+  @automated
   Scenario: [Primary] Verify search function by entering full text
     When I click search bar
-    And I enter full product name
+    And I fill search bar by entering full product name
     Then I should see that product in result page
     When I click that product
     Then I see product's name same as my text entered
@@ -25,14 +26,16 @@ Feature: Search products
     And I enter partial product name
     Then I should see those products in result page
 
+  @automated
   Scenario: [Primary] Verify search function by selecting suggestion
     When I click search bar
-    And I click dyson in suggestion
-    Then I see products in Dyson category
+    And I click "dyson" in suggestion
+    Then I see products in "dyson" category
 
-  Scenario: [Primary] Verify remove icon on search bar
+  @automated
+  Scenario: [Primary] Verify remove function on search bar
     When I click search bar
-    And I enter some texts
+    And I fill some texts
     And I click remove icon
     Then I don't see text I have entered
     And I see text "Search for products and brands" as placeholder
