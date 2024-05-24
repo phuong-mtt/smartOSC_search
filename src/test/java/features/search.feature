@@ -41,6 +41,31 @@ Feature: Search products
     And I see text "Search for products and brands" as placeholder
     And I don't see any products in result page
 
+  Scenario: [Primary] Verify search function when entering products that are not in database
+    When I click search bar
+    And I input random text
+    Then I don't see any products in result page
+
+  Scenario Outline: [Exception] Verify search function by entering space
+    When I click search bar
+    And I input <space>
+    Then I <can> see products in result page
+    Examples:
+      | space          | can     |
+      | full space     | can not |
+      | leading space  | can     |
+      | trailing space | can     |
+
+    Scenario Outline:[Alternate] Case sensitive - Verify search function by entering sensitve text
+      When I click search bar
+      And I input <caseSensitive>
+      Then I should see those products in result page
+      Examples:
+        | caseSensitive |
+        | uppercase     |
+        | lowercase     |
+        | camelcase     |
+
   Scenario Outline: [Exception] Verify search function by entering special characters
     When I click search bar
     And I enter <characterType>
