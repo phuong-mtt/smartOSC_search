@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="32819aaa-3f91-4a6f-9501-39c75fa6b7aa" name="Changes" comment="test: create step defs for search func">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/features/search.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/search.feature" afterDir="false" />
-    </list>
+    <list default="true" id="32819aaa-3f91-4a6f-9501-39c75fa6b7aa" name="Changes" comment="test: upload HomePage.java" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,14 +46,14 @@
     "TestNG./Users/pwggm/IdeaProjects/smartOSC/src/test/testSuite.xml.executor": "Run",
     "TestNG./Users/pwggm/IdeaProjects/smartOSC/testSuite.xml.executor": "Run",
     "TestNG.TestRunner.executor": "Run",
-    "git-widget-placeholder": "featureFile",
+    "git-widget-placeholder": "stepDefs",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/pwggm/IdeaProjects/smartOSC",
     "onboarding.tips.debug.path": "/Users/pwggm/IdeaProjects/smartOSC/src/main/java/org/example/Main.java",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "promo.kubernetes"
+    "settings.editor.selected.configurable": "reference.settings.project.maven.importing"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -69,7 +66,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG./Users/pwggm/IdeaProjects/smartOSC/src/test/testSuite.xml">
+  <component name="RunManager" selected="JUnit.TestRunner">
     <configuration name="Feature: search" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/search.feature" />
@@ -139,8 +136,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG./Users/pwggm/IdeaProjects/smartOSC/src/test/testSuite.xml" />
         <item itemvalue="JUnit.TestRunner" />
+        <item itemvalue="TestNG./Users/pwggm/IdeaProjects/smartOSC/src/test/testSuite.xml" />
         <item itemvalue="TestNG.TestRunner" />
         <item itemvalue="TestNG./Users/pwggm/IdeaProjects/smartOSC/testSuite.xml" />
         <item itemvalue="Cucumber Java.Feature: search" />
@@ -235,7 +232,23 @@
       <option name="project" value="LOCAL" />
       <updated>1716452771803</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="test: added new scenarios">
+      <option name="closed" value="true" />
+      <created>1716481727994</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1716481727994</updated>
+    </task>
+    <task id="LOCAL-00011" summary="test: upload HomePage.java">
+      <option name="closed" value="true" />
+      <created>1716520246267</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1716520246268</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -260,7 +273,9 @@
     <MESSAGE value="test: feature file created" />
     <MESSAGE value="test: added selenium and cucumber" />
     <MESSAGE value="test: create step defs for search func" />
-    <option name="LAST_COMMIT_MESSAGE" value="test: create step defs for search func" />
+    <MESSAGE value="test: added new scenarios" />
+    <MESSAGE value="test: upload HomePage.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="test: upload HomePage.java" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
