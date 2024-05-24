@@ -1,12 +1,8 @@
 package stepDefs;
 
-import PageObject.HomePage;
-import PageObject.SearchPage;
-import PageObject.ProductPage;
+import PageObject.*;
 import io.cucumber.java.en.*;
-import org.junit.After;
 import org.junit.Assert;
-import org.junit.Before;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.Wait;
 import org.openqa.selenium.support.ui.WebDriverWait;

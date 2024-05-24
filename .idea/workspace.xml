@@ -4,19 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="32819aaa-3f91-4a6f-9501-39c75fa6b7aa" name="Changes" comment="test: create step defs for search func">
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefs/hooks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/testSuite.xml" afterDir="false" />
+    <list default="true" id="32819aaa-3f91-4a6f-9501-39c75fa6b7aa" name="Changes" comment="test: added new scenarios">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PageObject/ProductPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageObject/ProductPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PageObject/SearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageObject/SearchPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hooks.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/reports/extentTestManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/reports/extentTestManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/SetUpDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/DriverInitializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/TestRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefs/searchStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefs/searchStepDefs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testSuite.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,27 +38,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Cucumber Java.Feature: search.executor": "Run",
-    "Cucumber Java.Scenario: [Primary] Verify search function by entering full text.executor": "Run",
-    "JUnit.TestRunner.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "TestNG./Users/pwggm/IdeaProjects/smartOSC/src/test/java/testSuite.xml.executor": "Run",
-    "TestNG./Users/pwggm/IdeaProjects/smartOSC/src/test/testSuite.xml.executor": "Run",
-    "TestNG./Users/pwggm/IdeaProjects/smartOSC/testSuite.xml.executor": "Run",
-    "TestNG.TestRunner.executor": "Run",
-    "git-widget-placeholder": "stepDefs",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/pwggm/IdeaProjects/smartOSC",
-    "onboarding.tips.debug.path": "/Users/pwggm/IdeaProjects/smartOSC/src/main/java/org/example/Main.java",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "promo.kubernetes"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Cucumber Java.Feature: search.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: [Primary] Verify search function by entering full text.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestRunner.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;TestNG./Users/pwggm/IdeaProjects/smartOSC/src/test/java/testSuite.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG./Users/pwggm/IdeaProjects/smartOSC/src/test/testSuite.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG./Users/pwggm/IdeaProjects/smartOSC/testSuite.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestRunner.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;stepDefs&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/pwggm/IdeaProjects/smartOSC&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/pwggm/IdeaProjects/smartOSC/src/main/java/org/example/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;promo.kubernetes&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/test" />
@@ -79,7 +69,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG./Users/pwggm/IdeaProjects/smartOSC/src/test/testSuite.xml">
+  <component name="RunManager" selected="JUnit.TestRunner">
     <configuration name="Feature: search" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/search.feature" />
@@ -149,8 +139,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG./Users/pwggm/IdeaProjects/smartOSC/src/test/testSuite.xml" />
         <item itemvalue="JUnit.TestRunner" />
+        <item itemvalue="TestNG./Users/pwggm/IdeaProjects/smartOSC/src/test/testSuite.xml" />
         <item itemvalue="TestNG.TestRunner" />
         <item itemvalue="TestNG./Users/pwggm/IdeaProjects/smartOSC/testSuite.xml" />
         <item itemvalue="Cucumber Java.Feature: search" />
@@ -245,7 +235,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716452771803</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="test: added new scenarios">
+      <option name="closed" value="true" />
+      <created>1716481727994</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1716481727994</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -270,7 +268,8 @@
     <MESSAGE value="test: feature file created" />
     <MESSAGE value="test: added selenium and cucumber" />
     <MESSAGE value="test: create step defs for search func" />
-    <option name="LAST_COMMIT_MESSAGE" value="test: create step defs for search func" />
+    <MESSAGE value="test: added new scenarios" />
+    <option name="LAST_COMMIT_MESSAGE" value="test: added new scenarios" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
